@@ -1,0 +1,100 @@
+Codepen link : https://codepen.io/Bajeeba/pen/BayqwVj
+
+
+
+ 1. What is Semantic HTML? 
+It describes its meaning.<header><footer>
+    2. What is HTML used for? 
+Its a standard for describing the structure and presentation of information.
+    3. What is an attribute and where do we put it? 
+HTML attributes are special words used inside the opening tag to control the element's behaviour.
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+Heading, we should only have 1.
+    5. Name two tags that have required attributes 
+href, id, src, style
+    6. What do we put in the head of our HTML document?
+ Title, description, keywords. 
+    7. What is an id?
+ Specifies a unique id for an element
+    8. What elements can I add an id to? 
+All
+    9. How many times can I use the same id on a page? 
+One time.
+    10. What is a class? 
+ is used to define equal styles for elements with the same class name.
+    11. What elements can I add a class to? 
+Any html element.
+    12. How many times can I use the same class on a page? 
+As many times as you want. 
+    13. How do I get my link to open in a new tab? 
+If you set the target attribute to "_blank", the link will open in a new browser window or a new tab.
+    14. What is the alt attribute used for? 
+specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id? 
+with a #
+    16. What is the difference between a section and a div? 
+section means that the content inside is grouped and should appear as a entry in an outline of a page whereas div does not.
+    17. What is CSS used for? 
+describes how HTML elements are to be displayed on screen, paper, or in other media.
+    18. How to we select an element? Example - every h2 on the page.
+ We can select it by h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. Class can be used for a list, and ID can be used for a specific link, or
+    20. How do we select classes in CSS?
+with a period first .h1 .h3
+    21. How do we select a p element with a single class of “human””?
+p.human 
+    22. What is a parent child selector? When would this be useful? 
+selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+div.sidebar
+    24. What is a pseudo selector?
+is a selector that selects elements that are in a specific state
+    25. What do we use the change the spacing between lines?
+line-height property in CSS.
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transformation:uppercase, text-transform:lowercase, text-transform:capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+div {
+border:1px;
+outline-style: dotted;
+outline-color: black;
+}
+    29. How do I select everything on the page? 
+*
+    30. How do I write a comment in CSS?
+ /* , and end it with */
+    31. How do I find out what file I am in, when I am using the command line? 
+Terminal promt
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm
+    34. Why should I use version control? 
+helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting. 
+    35. How often should I commit to github?
+every time you add somehting new. 
+    36. What is the command we would use to push our repo up to github? 
+push
+    37. Walk me through Lambda's git flow. 
+Git Flow
+1. Fork
+2. github repository settings -> add your TL as collaborator
+3. git clone into a local file using your terminal
+4. in terminal in cloned file create a branch -> git checkout -b "firstname-lastname"
+5. make a small change to project -> add -> commit -> git push origin firstname-lastname
+6. go back to Github repo, click compare & pull request button
+7. click base fork: dropdown -> select firstname-lastname/project-name
+8. click reviewers button, add TL as collaborator NOTE: If TL name doesn't pop up when you type it in for reviewer it's because they haven't accepted your collaborator invite. DM them and ask them to accept.
+9. click create pull request
+10. DO NOT CLICK MERGE PULL REQUEST. TL’s will be the only person to do this, and will only do it after they have confirmed you’ve met MVP.
+11. Head back over to your project and start working. add commit push origin firstname-lastname every time you finish a feature.
+12. Once MVP is complete make a commit with the commit message “mvp complete.” And I’ll check it out.
+13. Check your e-mail to see when request is merged.
+Stretch Questions
+
+   
+
+   --> 
